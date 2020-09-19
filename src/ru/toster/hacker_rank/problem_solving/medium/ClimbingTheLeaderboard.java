@@ -1,4 +1,4 @@
-package ru.toster.hacker_rank.medium;
+package ru.toster.hacker_rank.problem_solving.medium;
 
 import java.io.IOException;
 import java.util.ArrayList;

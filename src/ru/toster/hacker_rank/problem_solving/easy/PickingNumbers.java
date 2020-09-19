@@ -1,4 +1,4 @@
-package ru.toster.hacker_rank.easy;
+package ru.toster.hacker_rank.problem_solving.easy;
 
 import java.io.IOException;
 import java.util.HashMap;
