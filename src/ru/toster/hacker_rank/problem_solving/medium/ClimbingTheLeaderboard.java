@@ -83,8 +83,13 @@ public class ClimbingTheLeaderboard {
 
     public static void main(String[] args) throws IOException {
         List<Integer> result = Result.climbingLeaderboard(
-                List.of(1),
-                List.of(1, 1));
+                new ArrayList<Integer>() {{
+                    add(1);
+                }},
+                new ArrayList<Integer>() {{
+                    add(1);
+                    add(1);
+                }});
 
         result.forEach(System.out::println);
     }

@@ -52,7 +52,7 @@ public class JavaStack {
         return symbolStack.size() == 0;
     }
 
-    private final static Map<String, String> dict = new HashMap<>() {{
+    private final static Map<String, String> dict = new HashMap<String, String>() {{
         put("{", "}");
         put("(", ")");
         put("[", "]");

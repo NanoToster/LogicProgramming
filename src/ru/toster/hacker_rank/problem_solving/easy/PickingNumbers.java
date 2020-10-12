@@ -1,6 +1,7 @@
 package ru.toster.hacker_rank.problem_solving.easy;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -47,10 +48,12 @@ public class PickingNumbers {
     }
 
     public static void main(String[] args) throws IOException {
-        System.out.println(pickingNumbers(List.of(66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66,
-                66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66,
-                66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66,
-                66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66,
-                66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66)));
+        System.out.println(pickingNumbers(new ArrayList<Integer>() {{
+            add(1);
+            add(2);
+            add(2);
+            add(2);
+            add(2);
+        }}));
     }
 }
